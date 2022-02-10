@@ -4,6 +4,5 @@ steps:
 - name: gcr.io/cloud-builders/gsutil
   args: ['cp', 'cicd_adapt_bigquery_proc.py', 'gs://asia-northeast3-dataplatfor-372ed569-bucket/dags/cicd_adapt_bigquery_proc.py']
   dir: '$REPO_NAME/data_proc_01'
-  id: 'publish_test'  
 options:
   logging: CLOUD_LOGGING_ONLY
