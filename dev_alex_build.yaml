@@ -1,4 +1,4 @@
-steps:
+steps :
 - name: gcr.io/cloud-builders/git
   args: ['clone','https://source.developers.google.com/cj-olive-young-poc/master']
 - name: gcr.io/cloud-builders/gsutil
