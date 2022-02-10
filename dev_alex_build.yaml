@@ -2,6 +2,6 @@ steps:
 - name: gcr.io/cloud-builders/git
   args: ['clone','https://source.developers.google.com/cj-olive-young-poc/main']
 - name: gcr.io/cloud-builders/gsutil
-  args: ['cp', 'cicd_adapt_bigquery_proc.py', 'gs://asia-northeast3-dataplatfor-372ed569-bucket/dags/cicd_adapt_bigquery_proc.py']
+  args: ['cp', 'cicd_adapt_bigquery_proc.py', 'gs://asia-northeast3-cicd-airflo-b991dc6b-bucket/dags/cicd_adapt_bigquery_proc.py']
 options:
   logging: CLOUD_LOGGING_ONLY
