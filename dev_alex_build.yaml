@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  args: ['clone','https://source.developers.google.com/$PROJECT_ID/$REPO_NAME']
+
