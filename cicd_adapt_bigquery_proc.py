@@ -37,7 +37,7 @@ def _extracting_sql() :
 with DAG(dag_id='adapting_query_to_bigquery',
          schedule_interval=None,
          default_args=default_args,
-         tags=['cicd_test_alex_update'],
+         tags=['cicd_test_alex_update_v1'],
          catchup=False
          ) as dag :
     t1= DummyOperator(task_id='start',
